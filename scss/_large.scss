@@ -1,0 +1,45 @@
+header,nav,.hero,main,footer{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+main{
+    grid-template-columns: auto auto auto auto;
+
+    margin-top: $gutter;
+
+    gap: 16px;
+
+    h1,p,h2,#testimonials{
+        grid-column: 1 / span 4;
+    }
+    h2{
+        margin: 32px 0 16px;
+    }
+
+    #testimonials{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+footer {
+    display: block;
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 32px;
+    }
+
+    .location{
+        text-align: center;
+    }
+
+    .social{
+       justify-content: center;
+    }
+
+}

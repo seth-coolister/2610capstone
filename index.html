@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Five Path Design</title>
+  <meta name="description" content="Design in Five Paths">
+  <meta name="author" content="Seth Callister">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="./css/styles.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+  <header>
+    <picture>
+      <source media="(min-width: 64rem)" srcset="images/logo3x.webp">
+      <source media="(min-width: 35rem)" srcset="images/logo2x.webp">
+      <img src="images/logo1x.webp" alt="logo" width="64px">
+    </picture>
+    <h1>Five Path Design</h1>
+    <button id="hamburgerBtn">&#9776;</button>
+  </header>
+
+
+  <nav>
+    <ul id="menu">
+        <li><a href="#">Clients</a></li>
+        <li  class="active"><a href="#">About</a>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+  <div class="hero">
+    <video width="800" height="300" autoplay loop muted playsinline>
+      <source src="images/herovideo.mp4" type="video/mp4">
+    </video>
+    <div>
+      <h3>Five Path Design</h3>
+      <p>Let us path your design</p>
+    </div>
+  </div>
+
+  <main>
+
+    <h1>About Us</h1>
+    <p>Five Path Design is a design firm that specializes in five paths of design. We have been in business for over 20 years and have worked with many clients in a variety of industries. Our team of designers are experts in their field and are dedicated to providing the best design solutions for our clients.</p>
+    <h2>What We Do</h2>
+
+    <section>
+      <h3>Web Design</h3>
+      <img src="images/help-design.webp" width="300" height="200" alt="Web Design">
+      <p>Our web design services include creating custom websites that are tailored to your specific needs. We work with you to create a website that is visually appealing, user-friendly, and optimized for search engines.</p>
+    </section>
+
+    <section>
+      <h3>Graphic Design</h3>
+      <img src="images/help-branding.webp" width="300" height="200" alt="Graphic Design">
+      <p>Our graphic design services include creating logos, business cards, brochures, and other marketing materials that help you stand out from the competition. We work with you to create designs that are unique, memorable, and effective.</p>
+    </section>
+
+    <section>
+      <h3>Web Development</h3>
+      <img src="images/help-development.webp" width="300" height="200" alt="Web Development">
+      <p>Our web development services include building custom websites that are responsive, fast, and secure. We work with you to create a website that meets your specific requirements and helps you achieve your business goals.</p>
+    </section>
+
+    <section>
+      <h3>Marketing</h3>
+      <img src="images/help-marketing.webp" width="300" height="200" alt="Marketing">
+      <p>Our marketing services include creating digital marketing campaigns that help you reach your target audience and drive traffic to your website. We work with you to create campaigns that are effective, efficient, and measurable.</p>
+    </section>
+
+    <h2>Clients Who Trust Us</h2>
+
+    <div id="testimonials">
+      <img src="images/client-A.webp" width="150" height="50" alt="3M">
+      <img src="images/client-B.webp" width="150" height="50" alt="Cisco">
+      <img src="images/client-C.webp" width="150" height="50" alt="Google">
+      <img src="images/client-D.webp" width="150" height="50" alt="NBC">
+      <img src="images/client-E.webp" width="150" height="50" alt="Chanel">
+      <img src="images/client-F.webp" width="150" height="50" alt="Microsoft">
+    </div>
+
+  </main>
+
+
+  <footer>
+    <section class="contact">
+      <a href="tel:14414652394"><ion-icon name="phone-portrait-outline"></ion-icon>1-441-465-2394</a>
+      <a href="mailto:sethcallister@fivepathdesign.com"><ion-icon name="mail-outline"></ion-icon>sethcallister@fivepathdesign.com</a>
+      <a href="#"><ion-icon name="globe-outline"></ion-icon>fivepathdesign.com</a>
+      <a href="#"><ion-icon name="home-outline"></ion-icon>Five Path Design, LLC</a>
+    </section>
+
+    <section class="location">
+      <address>6151 Stratler Str<br>Murray, UT<br>84107</address>
+    </section>
+
+    <section class="social">
+      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+    </section>
+
+    <p class="legal">&copy; Seth Callister <span id="year"></span></p>
+
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+
+</body>
+
+</html>
